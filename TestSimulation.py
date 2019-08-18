@@ -5,7 +5,7 @@ The basic scenario
     Inode2 is connected to Fnode2 by linkIF2 (link_id = 2)
     Fnode1 is connected to Fnode2 by linkFF  (link_id = 3)
     Fnode1 and Fnode2 are connected to Cnode by linkFC1 and linkFC2 respectivly (link_id = 4 and 5)
-
+"""
 
 import random
 import matplotlib
