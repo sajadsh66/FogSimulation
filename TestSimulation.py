@@ -12,7 +12,7 @@ import matplotlib
 import simpy
 import numpy
 
-class Packet(object): # why we should use 'object' as input for this class? what happens if we don't use it?
+class Packet(object): 
     def __init__(self, pkt_id, generation_time=0, size=None, type=None, src_id="a", flow_id=0, nfw=0, fstc = False, task_or_resp="task"):
         self.generation_time = generation_time
         self.size = size
