@@ -1,6 +1,5 @@
 # adding Authentication, Encryption, Hash, Block Chain to proposed algorithm
 # Authentication is done before sending tasks, so it doesn't impress on service delay
-# Fragmentation doesn't attached
 
 import random
 import simpy
